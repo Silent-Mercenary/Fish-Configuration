@@ -1,30 +1,19 @@
-   __  __    _         _         ____              __  __       
-  / /_/ /_  (_)____   (_)____   / __/___  _____   / /_/ /_  ___ 
- / __/ __ \/ / ___/  / / ___/  / /_/ __ \/ ___/  / __/ __ \/ _ \
-/ /_/ / / / (__  )  / (__  )  / __/ /_/ / /     / /_/ / / /  __/
-\__/_/ /_/_/____/  /_/____/  /_/  \____/_/      \__/_/ /_/\___/ 
-                                                                
-    _____      __            __         ____               __     
-   / __(_)____/ /_     _____/ /_  ___  / / /  ____  ____  / /_  __
-  / /_/ / ___/ __ \   / ___/ __ \/ _ \/ / /  / __ \/ __ \/ / / / /
- / __/ (__  ) / / /  (__  ) / / /  __/ / /  / /_/ / / / / / /_/ / 
-/_/ /_/____/_/ /_/  /____/_/ /_/\___/_/_/   \____/_/ /_/_/\__, /  
-                                                         /____/   
-                                 
+A collection of aliases and utilities that make life on the command line less painful.  
 
+## Features
 
-AI Utils ---------> Ollama Alias
+- **AI Utils** → Ollama alias  
+- **Conveniences** → Random aliases I threw together for everyday nonsense  
+- **Distrobox Configs** → Pre-set configs for easier Distrobox usage  
+- **Networking Utils** → Nmap aliases  
+- **Utilities** → Shortcuts for basic commands  
+- **YT-Pull** → yt-dlp aliases for sanity and comprehension  
+- **FFmpeg** → Commands that don’t look like hieroglyphs  
+- **TODO** → Make a Nix module out of this  
 
-Conveniences -----> Random ass Alias I made for shit
+## Installation
 
-Distrobox-Confgs -> Easing of use of Distrobox 
-
-Networking-Utils -> Nmap Aliases
-
-Utilities --------> Alias for basic commands
-
-YT-Pull  ---------> yt-dlp aliases for easing of use and comprehension
-
-ffmpeg -----------> ffmpeg that doesnt look like hyroglyphs
-
-todo ------------> make a nix module for this 
+```bash
+git clone https://github.com/Silent-Mercenary/Fish-Configuration.git
+cd Fish-Configuration
+cp * /home/$USER/.config/fish/conf.d/
